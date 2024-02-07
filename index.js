@@ -7,7 +7,7 @@ yesBtn.addEventListener('click',function () {
     const contenedorImg = document.getElementById('contenedorImg');
     contenedorImg.style.justifyContent = 'center';
     gifOverlay.style.display = 'block'; // Mostrar la capa de superposición con el gif
-    gifChange.innerHTML = '<img src="/Poto.gif" alt="" style="height: 300px;width: 533.34px;">'; // Cambiar el gif debajo de los botones
+    gifChange.innerHTML = '<img src="/PrimerSanValentin.github.io/Poto.gif" alt="" style="height: 300px;width: 533.34px;">'; // Cambiar el gif debajo de los botones
 });
 
 const noBtn = document.querySelector('#noBtn');
