@@ -3,7 +3,7 @@ const gifOverlay = document.getElementById('gifOverlay');
 const gifChange = document.getElementById('gifChange');
 
 yesBtn.addEventListener('click',function () {
-    alert('Te amo muchísimo mi vida hermosa hermosa 💞')
+    alert('Te amo muchísimo mi vida hermosa 💞')
     const contenedorImg = document.getElementById('contenedorImg');
     contenedorImg.style.justifyContent = 'center';
     gifOverlay.style.display = 'block'; // Mostrar la capa de superposición con el gif
