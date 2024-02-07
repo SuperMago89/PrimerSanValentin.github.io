@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+}
+
+
+.gif-overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.8);
+    z-index: 9999;
+}
+
+.gif-img {
+    padding-top: 30px;
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+/* Estilos adicionales */
+.contenedor {
+    background: #84abca;
+    width: 100vw;
+    height: 100vh;
+    text-align: center;
+}
+
+p {
+    font-size: xx-large;
+    padding: 5%;
+}
+
+button {
+    font-size: xx-large;
+    padding: 0.75em;
+}
+
+#yesBtn {
+    transform: translate(-100%, 0);
+}
+
+#noBtn {
+    position: absolute;
+}
